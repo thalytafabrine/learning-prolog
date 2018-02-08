@@ -22,9 +22,9 @@ densidade(X,D) :- populacao(X,P), territorio(X,T), D is P / T.
 maior_densidade(X, Y, M) :- densidade(X,DX), densidade(Y,DY), DX > DY, M = X.
 maior_densidade(X, Y, M) :- densidade(X,DX), densidade(Y,DY), DX < DY, M = Y.
 
-:- initialization(caguei).
+:- initialization(main).
 
-caguei :-
+main :-
 	repeat,
 	read(X),
 	read(Y),
