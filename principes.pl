@@ -1,3 +1,23 @@
+/*
+A lista abaixo apresenta o histórico de reinado dos príncipes de Gales nos séculos 9 e 10. Os nomes estão em galês.
+
+Rhodi: 844-878
+
+Anarawd: 879-916
+
+Hywel Dda: 917-950
+
+Lago ap Idwal: 951-979
+
+Hywal ap Ieuaf: 980-965
+
+Cadwallon: 966-986
+
+Maredudd: 987-999
+
+Escreva um programa que decide quem reinou em um determinado ano. Atenção para representações dos nomes usadas nos testes: rhodi, anarawd, hywel_dda, lago_ap_idwal, hywal_ap_Ieuaf, cadwallon, maredudd
+*/
+
 principe(X, rhodi) :- (X > 843), (X =< 878).
 principe(X, anarawd) :- (X > 878), (X =< 916).
 principe(X, hywel_dda) :- (X > 916), (X =< 950).
